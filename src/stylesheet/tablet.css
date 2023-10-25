@@ -1,0 +1,83 @@
+/*HEADER*/
+
+header nav .section-login .request{
+    display:none ;
+}
+
+header nav .section-login button{
+    margin: 1rem 0;
+    background: var(--black);
+}
+header nav .section-login .sing {
+    border: none ;
+    color: #818eff;
+}
+
+
+
+/*SEARCH HELP*/
+
+main .search-help{
+    padding: 6rem 0;
+}
+main .search-help input {
+    max-width: 50rem;
+    width: 100%;
+    height:4rem;
+    border: none;
+    border-radius: 4px;
+    padding: .5rem;
+    -webkit-box-shadow: 0px 0px 19px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px -6px rgba(0,0,0,0.75);
+    }
+    main .search-help h2{
+        font-family: 'Overpass', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        font-weight: 200;
+        letter-spacing: -2px;
+    }
+
+
+    /*FOOTER*/
+
+  .container-nav-footer .footer-info  {
+   width: 100%;
+   height: auto;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   padding: 1rem;
+  }
+  .container-nav-footer .footer-info ul li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+  .container-nav-footer .footer-info ul li a:hover{
+    border-bottom: 1px solid var(--white);
+  }
+  .container-nav-footer .container-cart-footer h3{
+    font-size: 1.7rem;
+    margin: 2rem 0;
+      }
+    .container-nav-footer .container-cart-footer h4{
+    margin-top:2.2rem ;
+    font-size: 1.5rem;
+
+}
+.container-nav-footer .container-copyringh{
+        width:20%;
+        min-width: 20rem;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 1rem;
+      }
+
+.container-nav-footer .container-copyringh .img-footer img{
+  width: 100%;
+}
+.container-nav-footer .container-copyringh .img-footer{
+width: 40px;
+filter: invert(100%);
+}
